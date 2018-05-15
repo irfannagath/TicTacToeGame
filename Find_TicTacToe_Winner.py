@@ -28,3 +28,9 @@ while True and not(won):
     NewBoard = ttt.gamer(myPos,np_board,turn)
     won = ttt.solver(NewBoard)
     flag+=1
+    if flag == 10:
+        print ('\nIt is a Draw!!!')
+        print "Thanks for playing!!"
+        break
+
+
